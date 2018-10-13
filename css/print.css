@@ -1,4 +1,23 @@
 @media print {
+
+    @page {
+        size: auto;
+        margin: 0mm;
+    }
+    body {
+        padding: 40px;
+        width: 1200px;
+    }
+    .website {
+        display: none;
+    }
+    .small-block-grid-8 {
+        display: none;
+    }
+    .print {
+        display: none;
+    }
+
     .large-1 {
         width: 8.33333%;
     }

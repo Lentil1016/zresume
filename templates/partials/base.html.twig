@@ -33,9 +33,16 @@
                 {% include 'partials/header.html.twig' %}
             {% endblock %}
             <div class="row main">
+                <div class="text-center print">
+                    <a href="javascript:window.print()">打印本页</a></br>
+                </div>
                 {% block content %}
                 {% endblock %}
+                <div class="text-center print">
+                    <a href="javascript:window.print()">打印本页</a></br>
+                </div>
             </div>
+
         {% endblock %}
 
         {% block footer %}
