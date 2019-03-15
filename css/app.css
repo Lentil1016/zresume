@@ -270,9 +270,10 @@ img.ribbon {
     top: 3.5rem;
     margin-left: -0.8rem;
     position: relative;
-    font-size: 0.8rem;
+    font-size: 1.0rem;
     width: 130px;
     text-align: center;
+    font-weight:bold
 }
 
 .recog_data {
